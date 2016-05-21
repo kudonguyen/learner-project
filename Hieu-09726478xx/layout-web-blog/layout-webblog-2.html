@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<title>Layout-webblog-2</title>
+	<link rel="stylesheet" href="css/style-2.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,700italic,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<div class="logo-slogan fl-left">
+			<img src="img/logo-cione.svg" alt="logo cione">
+			<h1>Blog học lập trình trực tuyến</h1>
+		</div>
+		<div class="menu-header fl-right">
+			<h2>Menu chính</h2>
+			<ul>
+				<li><a href=""><h3>Mô hình "Learning care"</h3></a></li>
+				<li><a href=""><h3>Điều khoản sử dụng</h3></a></li>
+				<li><a href=""><h3>Đăng ký học</h3></a></li>
+			</ul>
+		</div>
+	</header>
+	<!-- end header -->
+	<nav>
+		<div class="menu-nav fl-left clear-fix">
+			<h2>Menu phụ</h2>
+			<ul>
+				<li><a href=""><h3>cione blog</h3></a></li>
+				<li><a href=""><h3>html</h3></a></li>
+				<li><a href=""><h3>css</h3></a></li>
+				<li><a href=""><h3>javascript</h3></a></li>
+			</ul>
+		</div>
+		<div class="search-box fl-right">
+			<input type="text" class="search" placeholder="Từ khoá...">
+		</div>
+	</nav>
+	<!-- end nav -->
+	<div id="content" class="clear-fix">
+		<div class="main-content">
+			<main>
+				<section class="blog">
+					<a href="">
+						<h2>Hiển thị các ký tự đặc biệt trên trang web sao cho đúng chuẩn</h2>
+					</a>
+					<div class="blog-author">
+						<span class="user-icon"><a href="">Kudo Nguyễn</a></span>
+						<span class="calendar-icon"><a href="">08 Mar,2016</a></span>
+						<span class="folder-open-icon"><a href="">HTML</a></span>
+					</div>
+					<div class="blog-text">
+						<h3 id="gioi-thieu">Giới thiệu</h3>
+						<p>Hẳn là ai trong chúng ta cũng đã từng sử dụng chắc năng <strong>Insert Symbol</strong> của phần mềm soạn thảo nổi tiếng MS Word để chèn các ký tự đặc biệt như &copy;, &reg;, &trade; rồi đúng không? Vậy khi chèn các ký tự đó với ngôn ngữ HTML có gì khác không? Và đúng chuẩn là sao nữa chứ?</p>
+						<h3 id="ky-tu-thay-the">Ký tự thay thế</h3>
+						<p>Hẳn là sẽ có một số bank sau khi làm thử sẽ trả lời rằng: "Cũng tương tự như Word thôi chứ có khác gì đâu?" Nhưng hãy tin đi, các bạn đang sai mất rồi!</p>
+						<p>Các bạn nên nhớ HTML là một loại tài liệu đặc biệt, nó khác với tài liệu văn bản thông thường. Các trình duyệt hiện nay rất thông minh. Chúng ta có thể sử dụng những ký tự hiện có trong bàn phím khi soạn thảo, và trình duyệt vẫn hiển thị bình thường. Nhưng đó lại là cách làm sai chuẩn</p>
+						<p>Vì thế, chúng ta có danh sách các ký tự đặc biệt mà khi ta muốn có được hiển thị ở trình duyệt thì sẽ sử dụng các mã ký tự thay thế. Các bạn có thể tham khảo qua trang web sau đây <a href="http://dev.w3.org/html5/html-author/charref">http://dev.w3.org/html5/html-author/charref</a><br>
+						để tìm các ký tự đặc biệt mà ta muốn thể hiện như copyright: &copy; chẳng hạn thì ta sẽ tương ứng với mã hiển thị html là... 
+						</p>
+						<p>Tương tự đối với các ký tự đặc biệt khác. Hãy tự thực hành để kiểm chứng điều này các bạn nhé</p>
+						<h3 id="kiem-tra-html">Kiểm tra tài liệu HTML có đúng chuẩn W3C?</h3>
+						<p>Vậy còn hiển thị như bình thường như MS Word kia mà sai chuẩn là như thế nào nữa? Sao mới là đúng chuẩn? Làm sao mới kiểm tra được?</p>
+						<p>Như đã trình bày, các trình duyệt hiện nay rất thông minh. Chúng ta có thể sử dụng những ký tự hiện có trong bàn phím khi soạn thảo, và trình duyệt vẫn hiển thị bình thường. Ví dụ như các ký tự kép, angle bracket,...</p>
+						<p>Tuy nhiên, các bạn cần đặc biệt lưu ý khi sử dụng <strong>angle bracket</strong> bởi vì với html thì có được xem là tag(Cấu trúc tag là). Giả sử ta có nội dung tài liệu html như sau:</p>
+						<p>Nội dung đơn giản là 2 có khác 5 không? Ta sử dụng <strong>angle bracket</strong> để mô tả toán tử khác, một loại toán tử rất hay sử dụng ở một số ngôn ngữ lập trình.<br>
+						và đây là kết quả hiển thị:<br>
+						<span>2 &lt;&gt; 5?</span>
+						</p>
+						<p>Đúng như ý của chúng ta, nhưng chúng ta đã sai nguyên tắc đối với chuẩn W3C. Các bạn nên kiểm tra tài liệu html của mình đã đúng chuẩn của W3C chưa thông qua website sau:<br>
+						<a href="http://validator.w3.org/">http://validator.w3.org/</a></p>
+						<blockquote>
+							<p>Trang web trên cho phép kiểm tra các đoạn mã HTML mà các bạn viết đã đúng chuẩn chưa, tự động kiểm tra bằng cú pháp HTML và đưa ra những phương hướng khắc phục với 3 lựa chọn bằng cách kiểm tra thông qua URL (địa chỉ web cụ thể), File Upload(tải lên một file HTML cụ thể) hoặc dán trực tiếp đoạn mã HTML cần kiểm tra thông qua Direct Input. Và khi kiểm tra trang chủ của CiOne.Vn, chúng tôi rất bất ngờ khi nó hoàn toàn không có lỗi nào hết.</p>
+						</blockquote>
+						<p>Sử dụng W3C Validator để kiểm tra đoạn mã trên, các bạn sẽ nhận được một thông báo đại loại như thế này</p>
+						<p>Thông báo này được hiểu như là chúng ta đã gõ sai thẻ, nếu muốn dùng dấu thì phải gõ là. Vậy các bạn đã hiểu sai chuẩn chỗ nào rồi chứ</p>
+						<h3 id="ket-luan">Kết luận</h3>
+						<p>Giờ thì các bạn đã biết cách hiển thị ký tự đặc biệt sao cho đúng chuẩn W3C rồi đó, kể từ bây giờ các bạn hãy tự tập thói quen kiểm tra các đoạn mã HTML của mình sau khi thực hiện các project nhé. Hãy tận hưởng cảm giác tuyệt vời khi thông báo xanh của W3C Validator hiện ra</p>
+						<p>Bảo đảm là sẽ "sướng đến chết ngất" đi</p>
+					</div>
+					<div class="blog-share">
+						<span>Share</span>
+						<span><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+						<span><a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a></span>
+						<span><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></span>
+					</div>
+					<div class="blog-quote">
+						<span>Kudo Nguyễn</span>
+						<p>"Viết code cũng phải như làm thơ..."</p>
+					</div>
+					<!-- end blog entry-->
+				</section>
+			</main>
+			<!-- end main -->
+			<aside class="aside-1 fl-right">
+				<h2>Hiển thị các ký tự đặc biệt trên trang web sao cho đúng chuẩn</h2>
+				<ul>
+					<li><a href="#gioi-thieu">Giới thiệu</a></li>
+					<li><a href="#ky-tu-thay-the">Ký tự thay thế</a></li>
+					<li><a href="#kiem-tra-html">Kiểm tra tài liệu HTML có đúng chuẩn W3C?</a></li>
+					<li><a href="#ket-luan">Kết luận</a></li>
+				</ul>
+			</aside>
+				<!-- end aside-1 -->
+			<aside class="aside-2 fl-right">
+					<h2>Đăng ký nhận bản tin</h2>
+					<p>Đăng ký để nhận email cập nhật các bài viết hàng ngày từ chúng tôi!</p>
+					<input type="text" class="email-box" placeholder="Địa chỉ Email của bạn">
+					<button type="submit" class="subscribe-button">ĐĂNG KÝ</button>
+			</aside>	
+				<!-- end aside-2 -->
+			<aside class="aside-3 fl-right">
+					<h2>Chủ đề</h2>
+					<ul>
+						<li><a href=""><h3>JavaScript</h3></a></li>
+						<li><a href=""><h3>HTML</h3></a></li>
+						<li><a href=""><h3>CSS</h3></a></li>
+						<li><a href=""><h3>DOM</h3></a></li>
+						<li><a href=""><h3>jQuery</h3></a></li>
+						<li><a href=""><h3>SMS API</h3></a></li>
+					</ul>
+			</aside>
+			<!-- end aside-3 -->
+			<div class="next-page clear-fix">
+				<span>1/3</span>
+				<a href="">
+					<i class="fa fa-chevron-right" aria-hidden="true"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- end content -->
+	<footer class="clear-fix">
+		<p>Copyright &copy; 2010-2016 <a href="">CiOne</a> &verbar; Powered by <a href="">Ghost</a></p>
+		<p>Design by <a href="">Hardeep Asrani</a></p>
+	</footer>
+	<!-- end footer -->
+</body>
+</html>
