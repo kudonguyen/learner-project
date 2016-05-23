@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Shopping Cart</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div id="cart">
+			<div id="heading">
+				<div id="cart-nav">
+					<span class="pre-page">Shop </span><span class="arrow">&nbsp;</span><span class="cur-page">Cart</span>
+				</div>
+				<div id="cart-status">
+					<span class="cart-stt">Order Status </span><span class="cart-icon">2</span><span class="cart-item"> Item</span>
+				</div>
+				<br class="cls" />
+			</div>
+
+			<div id="products">
+				<h1>Your cart</h1>
+				<div class="product-heading">
+					<label class="product-image">&nbsp;</label>
+					<label class="product-title">&nbsp;</label>
+					<label class="product-price text-center">Price</label>
+					<label class="product-quantity text-center">Quantity</label>
+					<label class="product-total text-center">Total</label>
+					<br class="cls">
+				</div>
+				<div class="product">
+					<div class="product-image">
+						<img src="images/tips-eraser.png" alt="tips-eraser" width="160" height="100">
+					</div>
+					<div class="product-title">
+						<div class="product-name">Replacement Tips and Eraser</div>
+						<div class="product-description">For pencil</div>
+					</div>
+					<div class="product-price">
+						7.95
+					</div>
+					<div class="product-quantity">
+						<span class="quantity">1</span>
+						<button class="btn">-</button><button class="btn">+</button>
+					</div>
+					<div class="product-total">
+						7.95
+					</div>
+					<br class="cls">
+				</div>
+				<div class="product">
+					<div class="product-image">
+						<img src="images/pencil.jpg" alt="tips-eraser" width="160" height="100">
+					</div>
+					<div class="product-title">
+						<div class="product-name">Pencil</div>
+						<div class="product-description">Walnut + Magnetic Snap</div>
+					</div>
+					<div class="product-price">
+						59.95
+					</div>
+					<div class="product-quantity">
+						<span class="quantity">1</span>
+						<button class="btn">-</button><button class="btn">+</button>
+					</div>
+					<div class="product-total">
+						59.95
+					</div>
+					<br class="cls">
+				</div>
+			</div>
+			<div id="checkout">
+				<div class="total">
+					Total &nbsp;&nbsp;&nbsp;$67.90
+				</div>
+				<div class="confirm">
+					<span class="shipping">Shipping to: </span>
+					<div class="geo">
+						<select name="shipping">
+							<option value="hcm">Hồ Chí Minh</option>
+							<option value="hn">Hà Nội</option>
+						</select>
+					</div>
+				</div>
+				<div class="check">
+						<button class="btn-checkout"> check out <span class="arrow2">&nbsp;</span></button>
+					</div>
+			</div>
+		</div>
+	</body>
+</html>

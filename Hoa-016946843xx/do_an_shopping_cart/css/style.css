@@ -1,0 +1,243 @@
+@font-face {
+    font-family: AvenirNext;
+    src: url("../fonts/avenirnextltpro-regular.ttf");
+}
+
+@font-face {
+    font-family: AvenirNextBold;
+    src: url("../fonts/avenirnextltpro-bold.ttf");
+}
+
+
+body {
+	font-family: AvenirNext, Helvetica, Arial, sans-serif;
+	background-color: #FFFCF5;
+}
+
+#heading {
+	margin-top: 10px;
+}
+
+#cart {
+	width: 1000px;
+	margin: auto;
+}
+
+#cart-nav {
+	width: 700px;
+	float: left;
+}
+
+.pre-page {
+	font-size: 26px;
+	color: #403D39;
+}
+
+.arrow {
+	background-image: url("../images/sprite-text-chevrons-black.png");
+	background-position: 60% 50%;
+	display: inline-block;
+	width: 20px;
+	height: 15px;
+}
+
+.cur-page {
+	font-size: 26px;
+	color: #A49E93;
+}
+
+#cart-status {
+	width: 280px;
+	text-align: right;
+	float: left;
+}
+
+.cart-stt {
+	font-size: 16px;
+	color: #A49E93;
+	margin-right: 20px;
+}
+
+.cart-item{
+	font-family: AvenirNextBold;
+	font-size: 16px;
+	color:#A49E93;
+}
+
+.cart-icon {
+	background-image: url("../images/cart_icon_sprite.svg");
+	background-repeat: no-repeat;
+	background-size: 22px;
+	display: inline-block;
+	width: 22px;
+	color: #FFFCF5;
+	font-size: 17px;
+	text-align: center;
+	padding-top: 6px;
+}
+
+#products {
+	margin-top: 100px;
+}
+
+#products h1 {
+	font-family: AvenirNextBold;
+	font-size: 46px;
+	color: #A49E93;
+}
+
+.product-heading {
+	height: 35px;
+	border-bottom: 1px solid #ccc5b9;
+	font-size: 18px;
+	color: #A49E93;
+}
+
+.product-image {
+	display: inline-block;
+	width: 20%;
+	float: left;
+}
+
+.product-title {
+	display: inline-block;
+	width: 30%;
+	float: left;
+}
+
+.product-price {
+	display: inline-block;
+	width: 10%;
+	float: left;
+}
+
+.product-quantity {
+	display: inline-block;
+	width: 20%;
+	float: left;
+}
+
+.product-total {
+	display: inline-block;
+	width: 10%;
+	float: left;
+}
+
+.product {
+	margin: 30px 0;
+	padding-bottom: 30px;	
+	border-bottom: 1px solid #ccc5b9;
+}
+
+.product-name {
+	margin: 25px 0 0 25px;
+	font-family: AvenirNextBold;
+	font-size: 20px;
+	color: #403D39;
+}
+
+.product-description {
+	margin-left: 25px;
+	font-size: 18px;
+	color: #403D39;
+}
+
+div.product-price{
+	padding: 45px 0 0 20px;
+	font-size: 18px;
+	color: #403D39;
+}
+
+div.product-price::before {
+	content: "$";
+}
+
+div.product-quantity {
+	padding: 45px 0 0 25px;
+}
+
+div.product-quantity .quantity {
+	font-family: AvenirNextBold;
+	font-size: 20px;
+	color: #403D39;
+}
+
+div.product-total {
+	font-family: AvenirNextBold;
+	font-size: 20px;
+	color: #403D39;
+	padding-top: 45px;
+}
+
+div.product-total::before {
+	content: "$";
+}
+
+#checkout {
+	margin: 30px 0 200px 0;
+}
+
+#checkout .total {
+	margin-bottom: 50px;
+	padding-right: 75px;
+	text-align: right;
+	font-family: AvenirNextBold;
+	font-size: 18px;
+	color: #A49E93;
+}
+
+.confirm {
+	width: 500px;
+	float: left;
+	text-align: right;
+	font-family: AvenirNextBold;
+	color: #403D39;
+	font-size: 14px;
+}
+.check {
+	width: 500px;
+	float: left;
+	text-align: center;
+}
+
+.arrow2 {
+	background-image: url("../images/sprite-text-chevrons-black.png");
+    background-position: 2px 4px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.btn {
+	margin: -1px;
+	border: 2px solid #A49E93;
+	border-radius: 5px;
+	background-color: #FFFCF5;
+	width: 50px;
+	height: 30px;
+}
+
+.btn-checkout {
+	background-color: #EB5E28;
+	border-radius: 25px;
+	border: 1px solid #EB5E28;
+	font-size: 18px;
+	color: #FFC0A4;
+	padding-left: 60px;
+	height: 40px;
+}
+
+.geo {
+	background-image: url("../images/icon-globe-1x.png");
+	background-repeat: no-repeat;
+	background-position-x: 375px;
+	height: 36px;
+
+}
+
+.text-center {
+	text-align: center;
+}
+
+.cls {
+	clear: both;
+}
