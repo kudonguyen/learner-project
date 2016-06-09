@@ -1,0 +1,94 @@
+/*FONT Bebas Neue*/
+@font-face{
+	font-family: 'bebas neue';
+	src: url('../fonts/bebas_neue/BebasNeue.otf') format('opentype');
+}
+/*END Bebas Neue*/
+/*FONT lobster*/
+@font-face{
+	font-family: lobster;
+	src: url('../fonts/lobster/Lobster.ttf') format('truetype');
+}
+/*END lobster*/
+/*FONT myriad pro light*/
+@font-face{
+	font-family: myriad;
+	src: url('../fonts/myriadprolight/MyriadPro-Light.otf') format('opentype');
+	font-weight: 300;
+	font-style: normal;
+}
+/*END myriad pro light*/
+/*FONT Open Sans*/
+@font-face{
+	font-family: 'open sans';
+	src: url('../fonts/Open_Sans/OpenSans-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+/*bold*/
+@font-face{
+	font-family: 'open sans';
+	src: url('../fonts/Open_Sans/OpenSans-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+/*bold italic*/
+@font-face{
+	font-family: 'open sans';
+	src: url('../fonts/Open_Sans/OpenSans-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+/*extra bold*/
+@font-face{
+	font-family: 'open sans';
+	src: url('../fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf') format('truetype');
+	font-weight: 800;
+	font-style: italic;
+}
+/*extra bold italic*/
+@font-face{
+	font-family: 'open sans';
+	src: url('../fonts/Open_Sans/OpenSans-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+/*italic*/
+@font-face{
+	font-family: 'open sans';
+	src: url('../fonts/Open_Sans/OpenSans-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+/*light*/
+@font-face{
+	font-family: 'open sans';
+	src: url('../fonts/Open_Sans/OpenSans-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+/*light italic*/
+@font-face{
+	font-family: 'open sans';
+	src: url('../fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+/*regular*/
+@font-face{
+	font-family: 'open sans';
+	src: url('../fonts/Open_Sans/OpenSans-Semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+/*semibold*/
+@font-face{
+	font-family: 'open sans';
+	src: url('../fonts/Open_Sans/OpenSans-SemiboldItalic.ttf') format('truetype');
+	font-weight: 600;
+	font-style: italic;
+}
+/*semibold italic*/
+/*END Open Sans*/
+
+

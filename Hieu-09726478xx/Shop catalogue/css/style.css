@@ -1,0 +1,322 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	font-family: Arial;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+button:hover{
+	cursor: pointer;
+}
+/*HEADER*/
+header{
+	height: 130px;
+	margin: 0 auto;
+}
+/*Top Menu*/
+.top-menu{
+	height: 85px;
+	width: 1100px;
+	margin: 0 auto;
+	line-height: 85px;
+}
+.logo, .search-box{
+	float: left;
+}
+.logo h1{
+	margin: 0;
+	font-family: lobster;
+	font-size: 49px;
+	font-weight: normal;
+	margin-left: 30px;
+}
+.logo h1 a{
+	color: #3cc3b5;
+}
+.search-box form{
+	width: 450px;
+	margin-left: 190px;
+	position: relative;
+}
+.search-box form input{
+	width: 434px;
+	height: 31px;
+	border: 1px solid #e1e1e1;
+}
+.search-box form a i{
+	color: #e1e1e1;
+	position: absolute;
+	right: 25px;
+	top: 37px;
+}
+.cart{
+	height: 80px;
+	float: right;
+	margin-right: 43px;
+	padding-top: 5px;
+}
+.cart span{
+	font-family: 'bebas neue';
+	font-size: 33px;
+	color: #a1a1a1;
+}
+.cart img{
+	margin-right: 10px;
+}
+/*Nav*/
+nav{
+	height: 45px;
+	background: #4ccfc1;
+}
+nav h2{
+	display: none;
+}
+nav ul{
+	width: 1100px;
+	margin: 0 auto;
+	padding: 0;
+	line-height: 44px;
+}
+nav ul li{
+	float: left;
+}
+nav ul li a{
+	font-family: 'bebas neue';
+	font-size: 21px;
+	color: white;
+	font-weight: normal;
+	padding: 0 24px;
+	border-left: 2px solid white;
+}
+nav ul li:first-child > a{
+	border: none;
+}
+/*BANNER*/
+.banner{
+	height: 470px;
+	background: url('../img/bg.png');
+	background-size: cover;
+}
+.content-banner{
+	width: 900px;
+	margin: 0 auto;
+	padding-top: 70px;
+}
+.content-banner img{
+	width: 300px;
+	float: left;
+	height: auto;
+}
+.content-banner form{
+	width: 410px;
+	float: left;
+	padding: 20px 0 0 90px;
+	color: white;
+}
+.content-banner form h2{
+	font-family: 'bebas neue';
+	font-size: 61px;
+	font-weight: normal;
+	line-height: 55px;
+	margin: 0;
+}
+.content-banner form p{
+	font-family: 'open sans';
+	font-size: 17px;
+	margin-bottom: 35px;
+}
+.content-banner form button{
+	width: 140px;
+	height: 45px;
+	background: transparent;
+	border-radius: 8px;
+	border: 3px solid white;
+	font-family: 'bebas neue';
+	font-size: 27px;
+	color: white;
+}
+/*CATAGORIES*/
+.categories{
+	height: 200px;
+}
+.categories h2{
+	display: none;
+}
+.categories ul{
+	width: 1100px;
+	margin: 0 auto;
+	padding: 0;
+}
+.categories ul li{
+	float: left;
+	width: 33%;
+	height: 200px;
+	position: relative;
+	border-right: 2px solid #e7e7e7;
+}
+.categories ul li:last-child{
+	border: none;
+}
+.categories ul li a img{
+	float: left;
+	margin-left: 15px;
+	position: absolute;
+	top: 30px;
+}
+.categories ul li:last-child a img{
+	left: 40px;
+}
+.categories ul li a h4{
+	font-family: 'bebas neue';
+	font-size: 27px;
+	color: #afafaf;
+	font-weight: normal;
+	line-height: 25px;
+	margin: 0;
+	position: absolute;
+	right: 70px;
+	top: 50px;
+}
+.categories ul li button{
+	width: 60px;
+	height: 33px;
+	border-radius: 3px;
+	background: #3cc395;
+	border: none;
+	font-family: 'bebas neue';
+	font-size: 19px;
+	color: white;
+	position: absolute;
+	right: 85px;
+	top: 115px;
+}
+/*FEATURE*/
+.feature{
+	height: 760px;
+}
+.feature div{
+	height: 70px;
+	background: url('../img/bg.png');
+	background-size: cover;
+}
+.feature div h2{
+	font-family: 'bebas neue';
+	font-size: 31px;
+	color: white;
+	font-weight: normal;
+	line-height: 70px;
+	margin: 0 auto;
+	width: 1100px;
+	padding-left: 130px;
+}
+.feature ul{
+	width: 1100px;
+	height: 690px;
+	margin: 0 auto;
+	padding: 0;
+}
+.feature ul li{
+	width: 260px;
+	height: 260px;
+	float: left;
+	margin: 45px 25px 0;
+	border: 2px solid #e7e7e7;
+	border-bottom: 5px solid #3cc395;
+	position: relative;
+	left: 75px;
+	text-align: center;
+}
+.feature ul li a img{
+	padding-top: 20px;
+}
+.feature ul li a h4, .feature ul li a p{
+	font-family: 'bebas neue';
+	font-size: 27px;
+	color: #afafaf;
+	font-weight: normal;
+	margin: 0;
+}
+.feature ul li a h4{
+	position: absolute;
+	top: 160px;
+	left: 60px;
+}
+.feature ul li a p{
+	position: absolute;
+	left: 63px;
+	top: 198px;
+}
+.feature ul li button{
+	width: 75px;
+	height: 35px;
+	font-family: 'bebas neue';
+	font-size: 20.19px;
+	color: white;
+	font-weight: normal;
+	background: #3cc395;
+	border-radius: 3px; 
+	border: none;
+	position: absolute;
+	top: 195px;
+	left: 120px;
+}
+/*FOOTER*/
+footer{
+	height: 385px;
+	background: url('../img/bg.png');
+	background-size: cover;
+}
+footer h2{
+	display: none;
+}
+footer ul{
+	width: 1000px;
+	height: 340px;
+	margin: 0 auto;
+	padding: 0;
+}
+footer>ul>li{
+	float: left;
+	margin: 40px 50px 0;
+	color: white;
+}
+footer ul li>ul{
+	width: 150px;
+	height: 270px;
+}
+footer ul li h4{
+	font-family: 'bebas neue';
+	font-size: 27px;
+	font-weight: normal;
+	margin: 0;
+	padding-bottom: 20px;
+}
+footer ul li ul li{
+	margin: 0;
+}
+footer ul li ul li a{
+	display: block;
+	font-family: 'open sans';
+	font-size: 15px;
+	color: white;
+	line-height: 28px;
+}
+.copyright{
+	clear: both;
+	height: 45px;
+	background: #2da89b;
+}
+.copyright p{
+	font-family: myriad;
+	font-size: 15px;
+	color: white;
+	margin: 0;
+	text-align: center;
+	line-height: 45px;
+}
