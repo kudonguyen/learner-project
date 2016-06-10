@@ -1,0 +1,62 @@
+/*FONT himalaya*/
+@font-face{
+	font-family: himalaya;
+	src: url('../fonts/himalaya/himalaya.ttf') format('truetype');
+}
+/*FONT merriweather*/
+@font-face{
+	font-family: merriweather;
+	src: url('../fonts/merriweather/Merriweather Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+/*light*/
+@font-face{
+	font-family: merriweather;
+	src: url('../fonts/merriweather/Merriweather UltraBold.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+/*ultra bold*/
+@font-face{
+	font-family: merriweather;
+	src: url('../fonts/merriweather/Merriweather-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+/*bold*/
+@font-face{
+	font-family: merriweather;
+	src: url('../fonts/merriweather/Merriweather-BoldIt.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+/*bold italic*/
+@font-face{
+	font-family: merriweather;
+	src: url('../fonts/merriweather/Merriweather-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+/*italic*/
+@font-face{
+	font-family: merriweather;
+	src: url('../fonts/merriweather/Merriweather-LightIt.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+/*light italic*/
+@font-face{
+	font-family: merriweather;
+	src: url('../fonts/merriweather/Merriweather-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+/*regular*/
+@font-face{
+	font-family: merriweather;
+	src: url('../fonts/merriweather/Merriweather-UltraBdIt.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+/*ultra bold italic*/
