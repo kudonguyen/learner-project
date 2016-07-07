@@ -1,0 +1,302 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url("../fonts/helveticaneue.ttf") format("truetype");
+    font-family: myfontbold;
+    src: url("../fonts/helveticaneuebold.ttf") format("truetype");
+    font-family: myfontmedium;
+    src: url("../fonts/helveticaneuemedium.ttf") format("truetype");
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*-----------------Navigation-------------------*/
+
+#fixNav {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    /*Ðổ bóng cho menu*/
+}
+
+nav h2 {
+    display: none;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+}
+
+nav ul li {
+    float: left;
+    list-style-type: none;
+    background-color: #3498db;
+    margin-left: 20px;
+}
+
+nav ul {
+    margin-left: 60px;
+}
+
+nav li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #d9534f;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+nav {
+    overflow: auto;
+    background-color: #3498db;
+}
+
+nav ul li a span {
+    font-weight: 600;
+}
+
+
+/*-----------------Header-------------------*/
+
+header {
+    clear: both;
+    position: relative;
+    top: 20px;
+}
+
+#head {
+    left: 50px;
+    padding-left: 50px;
+}
+
+#head h1 {
+    color: #5a5a5a;
+    font-size: 21px;
+    font-weight: normal;
+    font-family: myfont;
+}
+
+
+/*------------------Docs----------------------*/
+
+#docs {
+    background-color: #fafafa;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+#docs p {
+    color: #428bca;
+    font-family: myfontmedium;
+    padding: 20px 20px 20px 100px;
+}
+
+#docs span {
+    color: black;
+}
+
+
+/*-------------------Main---------------------*/
+
+main {
+    width: 85%;
+    height: auto;
+}
+
+
+/*-------------------sidebar---------------------*/
+
+section h2 {
+    display: none;
+}
+
+#sidebar {
+    background-color: #f7f5fa;
+    height: 250px;
+    width: 23%;
+    float: left;
+    border-radius: 7px;
+}
+
+#sidebar h2 {
+    display: none;
+}
+
+#sidebar h3 {
+    font-size: 15px;
+}
+
+#sidebar li a {
+    font-family: myfont;
+    font-size: 17px;
+    color: #716b7a;
+}
+
+#sidebar li {
+    margin-bottom: 10px;
+}
+
+#sidebar ul {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+/*-------------------Main - content---------------------*/
+
+#content {
+    width: 70%;
+    height: auto;
+    margin-left: 280px;
+}
+
+#content h1 {
+    font-family: sans-serif;
+}
+
+span.txt-hot {
+    color: red;
+}
+
+hr {
+    margin-top: 10px;
+    color: #eeeeee;
+}
+
+
+/*-------------content first-------------*/
+
+.content-first {
+    margin-top: 15px;
+}
+
+.content-first img {
+    float: left;
+}
+
+#bs-callout {
+    width: 570px;
+    height: 160px;
+    background-color: #f0f7fd;
+    margin-left: 220px;
+    border-left: 8px solid #cfe3f2;
+}
+
+#bs-callout p {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-style: italic;
+    font-family: myfontmedium;
+    line-height: 25px;
+}
+
+.creative-group {
+    position: relative;
+    left: 80px;
+    width: 380px;
+}
+
+#bs-callout span {
+    color: #8cd0e7;
+}
+
+#bt-callout {
+    clear: both;
+    border: 3px dashed #337ab7;
+    padding: 5px;
+    margin: 30px 0px 10px 0px;
+}
+
+#bt-callout p {
+    font-size: 18px;
+    font-family: myfontmedium;
+    line-height: 25px;
+}
+
+.txt-red {
+    color: red;
+}
+
+.txt-blue {
+    color: blue;
+}
+
+
+/*-------------all-------------*/
+
+h4 {
+    color: #d9534f;
+    font-family: myfontmedium;
+    font-size: 18px;
+}
+
+.center-pic {
+    position: relative;
+    left: 300px;
+    margin-top: 10px;
+}
+
+.txt-des {
+    font-family: myfontmedium;
+    line-height: 25px;
+}
+
+
+/*-------------content at-------------*/
+
+.content-at {
+    margin-top: 20px;
+}
+
+
+/*-------------content ft-------------*/
+
+.end-content {
+    margin-top: 20px;
+}
+
+ol li a {
+    font-family: myfontmedium;
+    color: blue;
+}
+
+ol {
+    position: relative;
+    list-style-position: inside
+}
+
+
+/*-------------Footer-------------*/
+
+#footer-blog {
+    clear: both;
+    height: 60px;
+    margin-top: 5px;
+    border-top: 1px solid #e6e6e6;
+    text-align: center;
+}
+
+#footer-blog p {
+    color: #777777;
+    font-family: myfontmedium;
+    line-height: 40px;
+}
