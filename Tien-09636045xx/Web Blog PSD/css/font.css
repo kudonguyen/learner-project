@@ -1,0 +1,14 @@
+@font-face{
+	font-family: 'helvetica-neue-bold';
+	src: url('../fonts/helveticaneuebold.ttf') format('truetype');	 
+}
+
+@font-face{
+	font-family: 'helvetica-neue-medium';
+	src: url('../fonts/helveticaneuemedium.ttf') format('truetype');	 
+}
+
+@font-face{
+	font-family: 'helveticaneue';
+	src: url('../fonts/helveticaneue.ttf') format('truetype');	 
+}

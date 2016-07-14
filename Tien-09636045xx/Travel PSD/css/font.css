@@ -1,0 +1,10 @@
+@font-face{
+	font-family: 'big-noodle-titling';
+	src: url('../fonts/big_noodle_titling.ttf') format('truetype');	 
+}
+
+@font-face{
+	font-family: 'big-noodle-titling-oblique';
+	src: url('../fonts/big_noodle_titling_oblique.ttf') format('truetype');	 
+}
+
