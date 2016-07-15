@@ -1,0 +1,460 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: BigNoodleTit;
+    src: url('../fonts/bignoodle_titling/big_noodle_titling.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: opensans_regular;
+    src: url('../fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: opensans_bold;
+    src: url('../fonts/Open_Sans/OpenSans-Bold.ttf') format('truetype');
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/*-----------------header-----------------*/
+
+header {
+    background: url("../image/header-img.png") no-repeat;
+    width: 100%;
+    height: 910px;
+}
+
+header h1 {
+    display: none;
+}
+
+header h2 {
+    font-family: BigNoodleTit;
+    font-size: 50px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+#sologan {
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 650px;
+    top: 340px;
+    left: 100px;
+}
+
+#sologan p {
+    font-family: opensans_regular;
+    font-size: 25px;
+}
+
+#search-box {
+    position: relative;
+    top: 160px;
+    left: 290px;
+    width: 400px;
+    height: 530px;
+    background-color: white;
+    text-align: center;
+}
+
+#search-box h2 {
+    padding-top: 30px;
+    color: #606060;
+}
+
+#search-box p {
+    font-family: opensans_regular;
+    font-size: 18px;
+    color: #606060;
+    padding: 5px 0px 0px 0px;
+}
+
+#search-box li {
+    position: relative;
+    right: 20px;
+    height: 50px;
+    width: 320px;
+    margin-top: 20px;
+}
+
+#search-box li a {
+    position: absolute;
+    top: 18px;
+    left: 290px;
+    font-size: 18px;
+    color: #606060;
+}
+
+#search-box input[placeholder] {
+    color: #606060;
+    height: 50px;
+    width: 100%;
+    padding-left: 20px;
+    font-family: opensans_regular;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    border: 0px;
+}
+
+#search-box input[type="button"] {
+    background-color: #006fe6;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    width: 320px;
+    padding: 20px;
+    position: absolute;
+    left: 40px;
+    margin-top: 20px;
+    font-family: opensans_bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#about {
+    position: absolute;
+    top: 670px;
+    left: 180px;
+    width: 520px;
+}
+
+#about p {
+    font-family: opensans_regular;
+    font-size: 16px;
+    color: white;
+}
+
+
+/*---------------Tour-Type-Area------------------*/
+
+section.tour-type-area {
+    height: 550px;
+    width: 100%;
+    background: url("../image/tour-type.png");
+}
+
+section.tour-type-area h2 {
+    display: none;
+}
+
+section #des {
+    text-align: center;
+    padding-top: 30px;
+    width: 71%;
+}
+
+#des p {
+    color: #696c6d;
+    font-size: 20px;
+    font-family: opensans_regular;
+}
+
+section #type-area {
+    height: 450px;
+    width: 100%;
+}
+
+section #type-area .tour {
+    float: left;
+    width: 240px;
+    height: 240px;
+    position: relative;
+    top: 90px;
+    left: 140px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+section #type-area .tour h3 {
+    color: white;
+    line-height: 280px;
+    text-align: center;
+    font-family: BigNoodleTit;
+    font-size: 33px;
+    font-weight: normal;
+}
+
+#type-area .area-1 {
+    background: url("../image/resort.png") no-repeat;
+}
+
+#type-area .area-2 {
+    background: url("../image/1.png") no-repeat;
+}
+
+#type-area .area-3 {
+    background: url("../image/bridge.png") no-repeat;
+}
+
+#type-area .area-4 {
+    background: url("../image/bird1.png") no-repeat;
+}
+
+
+/*--------------News-area---------------*/
+
+section.news-area {
+    height: 750px;
+    width: 100%;
+}
+
+section.news-area h2 {
+    font-family: BigNoodleTit;
+    font-size: 50px;
+    text-align: center;
+    padding: 40px;
+    letter-spacing: 3px;
+}
+
+section.news-area p {
+    font-family: opensans_regular;
+    text-align: center;
+    font-size: 20px;
+    width: 71%;
+    padding-bottom: 30px;
+}
+
+#list-country {
+    width: 100%;
+    height: 530px;
+    text-align: center;
+}
+
+#list-country .new {
+    height: 530px;
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 135px;
+    margin: 0px 30px 0px 30px;
+}
+
+#list-country .country1 {
+    background: url("../image/new1.png") no-repeat;
+}
+
+#list-country .country2 {
+    background: url("../image/new2.png") no-repeat;
+}
+
+#list-country .country3 {
+    background: url("../image/new3.png") no-repeat;
+}
+
+#list-country .new p {
+    font-family: opensans_bold;
+    color: #47a0ff;
+    width: 100%;
+    text-align: left;
+    padding-left: 15px;
+    position: absolute;
+    top: 260px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+#list-country .new ul li {
+    float: left;
+    position: relative;
+    top: 300px;
+    right: 25px;
+    color: #606060;
+    padding-right: 40px;
+    font-family: opensans_regular;
+    font-size: 15px;
+}
+
+#list-country .new ul {
+    text-align: left;
+}
+
+#list-country .new p.about {
+    font-family: opensans_regular;
+    font-size: 15px;
+    color: #606060;
+    margin-top: 90px;
+}
+
+
+/*--------------Bottom banner---------------*/
+
+section.bottom-banner {
+    width: 100%;
+    height: 600px;
+    background: url("../image/bottom-banner.png") no-repeat;
+    background-size: cover;
+}
+
+section.bottom-banner h3 {
+    font-family: BigNoodleTit;
+    text-align: center;
+    font-size: 140px;
+    color: white;
+    padding-top: 140px;
+    letter-spacing: 7px;
+}
+
+section.bottom-banner p {
+    font-family: BigNoodleTit;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+section.bottom-banner #find-tour {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #47a0ff;
+    margin-top: 20px;
+}
+
+section.bottom-banner #find-tour p {
+    font-family: opensans_bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 130px;
+    cursor: poiter;
+}
+
+
+/*--------------Footer---------------*/
+
+footer {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+footer h2 {
+    display: none;
+}
+
+footer #contact {
+    height: 340px;
+    width: 100%;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+#contact h3 {
+    text-transform: uppercase;
+    font-family: BigNoodleTit;
+    font-size: 30px;
+    color: #606060;
+    letter-spacing: 3px;
+}
+
+#contact p {
+    color: #606060;
+    line-height: 30px;
+    font-family: opensans_regular;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.findfinder {
+    height: 250px;
+    width: 300px;
+    margin-top: 90px;
+    margin-left: 130px;
+    float: left;
+}
+
+.support {
+    height: 250px;
+    width: 130px;
+    margin-top: 90px;
+    margin-left: 30px;
+    float: left;
+}
+
+.follow {
+    height: 250px;
+    width: 240px;
+    margin-top: 90px;
+    margin-left: 120px;
+    float: left;
+}
+
+.follow ul {
+    margin-top: 30px;
+}
+
+.follow ul li {
+    position: relative;
+    right: 45px;
+    float: left;
+}
+
+.follow ul li a i {
+    position: absolute;
+    color: white;
+    line-height: 40px;
+    left: 15px;
+}
+
+.follow li {
+    margin: 5px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: #47a0ff;
+}
+
+.newsletter {
+    height: 250px;
+    width: 280px;
+    margin-top: 90px;
+    float: left
+}
+
+.newsletter input[type="text"] {
+    margin-top: 35px;
+}
+
+.newsletter input[type="button"] {
+    margin-top: 35px;
+    position: absolute;
+    top: 128px;
+    right: 137px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #006fe6;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.newsletter input[placeholder] {
+    height: 50px;
+    width: 270px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 15px;
+    background-color: #f2f2f2;
+    font-family: opensans_regular;
+    font-size: 13px;
+}
+
+#copyright {
+    font-size: 13px;
+    color: #606060;
+    font-family: opensans_regular;
+    padding-top: 20px;
+    margin-left: 130px;
+}
