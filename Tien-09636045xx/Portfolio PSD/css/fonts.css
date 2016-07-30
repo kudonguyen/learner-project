@@ -1,0 +1,9 @@
+@font-face{
+	font-family: 'Himalaya';
+	src: url('../fonts/himalaya/himalaya.ttf') format("truetype");;	
+}
+
+@font-face{
+	font-family: 'Merriweather Light';
+	src: url('../fonts/merriweather/Merriweather-Light.ttf') format('truetype');	
+}

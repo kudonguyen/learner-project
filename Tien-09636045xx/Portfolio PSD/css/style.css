@@ -1,0 +1,155 @@
+/*import file css*/
+@import url('reset.css');
+@import url('fonts.css');
+
+body{
+	font-family: 'Merriweather Light', serif;
+	background-color: #f8f8f8;
+}
+.clearfix:after, .clearfix:before{
+	clear: both;
+	display: table;
+	content: "";
+}
+.hidden{
+	display: none;
+}
+.text-orange{
+	color: #fea030;
+}
+/*====================HEADER=====================*/
+header{
+	width: 1168px;
+	margin: 100px auto 50px auto;
+	height: 41px;
+}
+	.logo{
+		float: left;
+	}
+	.menu{
+		float: right;
+		height: 41px;
+		background-color: #ff9311;
+	}	
+		.menu li{
+			float: left;
+			line-height: 41px;
+			margin: 0px 28px;
+		}
+			.menu li a{
+				color: #fff;
+				font-size: 14px;
+				display: block;
+				height: 39px;
+			}
+			.menu li a:hover{
+				border-bottom: 2px solid #fff;
+			}
+/*======================PROFILE=========================*/
+section.profile-box{
+	width: 1168px;
+	margin: 0px auto 100px auto;
+	height: 195px;
+	background-color: #f5f5f5;
+}
+	.profile{
+		height: 195px;
+		position: relative;
+	}
+		.profile img{
+			float: left;
+		}
+		.profile ul{
+			margin: 40px 0px 0px 28px;
+			float: left;
+		}
+			.profile ul li{
+				font-size: 14px;
+				line-height: 28.75px;
+			}
+				.profile ul li .info{
+					color: #a5a5a5;
+				}
+				.profile ul li strong{
+					margin-left: 5px;
+					color: #424242;
+					font-weight: bold;
+				}
+		.profile button{
+			position: absolute;
+			bottom: 44px;
+			right: 30px;
+			width: 170px;
+			height: 44px;
+			font-size: 14px;
+			background-color: #ff9311;
+			border: none;
+			color: #fff;
+			text-transform: uppercase;
+			font-family: 'Merriweather Light', serif;
+			outline: none;
+		}
+		.profile button:hover{
+			background-color: #2980b9;
+			cursor: pointer;
+			-webkit-transition: 0.3s ease-in-out;
+			-moz-transition: 0.3s ease-in-out;
+			-ms-transition: 0.3s ease-in-out;
+		}
+/*==================CONTENT====================*/
+.portfolio-img{
+	width: 1200px;
+	margin: 0px auto;
+}
+	.list-img li{
+		float: left;
+		margin: 0px 15px 27px 15px;
+	}
+		.list-img li a{
+			display: block;
+		}
+		.list-img li a:hover{
+			background-color: #ff9311;
+			opacity: 0.8;
+			-webkit-transition: 0.3s ease-in-out;
+			-moz-transition: 0.3s ease-in-out;
+			-ms-transition: 0.3s ease-in-out;	
+		}
+			.list-img li a img{
+				width: 570px;
+				height: 430px;
+			}
+/*====================FOOTER========================*/
+footer{
+	width: 1168px;
+	margin: 0px auto;
+	text-align: center;
+	height: 305px;
+}
+	ul.social{
+		padding:138px 0px 20px 0px;
+		width: 190px;
+		height: 16px;
+		margin-left: 502.5px;
+	}
+		ul.social li{
+			float: left;
+			padding:0px 10px;
+			border-right: 1px solid #e3e3e3;
+		}
+		ul.social li:first-child{
+			padding-left: 0px;
+		}
+		ul.social li:last-child{
+			border: none;
+		}
+			ul.social li a{
+				color: #424242;
+			}
+			ul.social li a:hover{
+				color: #ff9311;
+			}
+	.copy-right p{
+		line-height: 30px;
+		color:#5a5a5a;	
+	}

@@ -1,0 +1,288 @@
+/*import file css*/
+@import url('reset.css');
+@import url('fonts.css');
+
+.clearfix:before, .clearfix:after{
+	display: table;
+	content: '';
+	clear: both;
+}
+.hidden{
+	display: none;
+}
+body{
+	font-family: 'Bebas Neue', sans-serif;
+}
+/*=======================HEADER========================*/
+.header-top{
+	text-align: center;
+	height: 82px;
+	width: 985px;
+	margin: 0px auto;
+	line-height: 82px;
+}
+	.header-top .logo{
+		float: left;
+	}
+		.header-top .logo a{
+			font-size: 49px;
+			color: #3cc3b5;
+			font-family: 'Lobster', sans-serif;
+		}
+	.header-top .search{
+		float: left;
+		position: relative;
+		margin: 0px 155px 0px 170px;
+	}
+		.header-top .search #txt-search{
+			width: 435px;
+			height: 28px;
+			border:1px solid #e1e1e1;
+			outline: none;
+			font-family: 'Open Sans', sans-serif;
+			color: #7f8c8d;
+			font-size: 15px;
+			font-style: italic;
+			padding-right: 18px;
+		}
+		.header-top .search #btn-submit{
+			position: absolute;
+			top: 32px;
+			right: 8px;
+			border:none;
+			outline: none;
+			background-color: #fff;
+			cursor: pointer;
+			color: #e3e3e3;
+		}
+		.header-top .search #btn-submit:hover{
+			color: #4ccfc1;
+		}
+	.header-top .cart{
+		float: right;
+		background: url('../images/icon-cart.png')no-repeat;
+		background-position: 0px 18px;
+	}
+		.header-top .cart span{
+			margin-left: 60px;
+		}
+			.header-top .cart span a{
+				font-size: 33px;
+				color: #a1a1a1;
+			}
+nav{
+	clear: both;	
+	width: 1349px;
+	background-color: #4ccfc1;
+	margin: 0px auto;
+}
+	.menu-top{
+		width: 1000px;
+		margin: 0px auto;
+		height: 38px;
+	}
+		.menu-top li{
+			float: left;			
+		}
+			.menu-top li a{
+				color: #fff;
+				text-transform: uppercase;
+				font-size: 21px;
+				line-height: 38px;
+				border-right: 2px solid #fff;
+				padding: 0px 22px
+			}
+			.menu-top li:first-child a{
+				padding-left: 0px;
+			}
+			.menu-top li:last-child a{
+				padding-right: 0px;
+				border-right: none;
+			}
+/*==========================BANNER==========================*/
+.banner{
+	background-color: #3dbfb1;
+	height: 446px;
+	/*width: 1349px;	 */
+}
+	.banner .content-banner{
+		width: 745px;
+		height: 330px;
+		padding: 68px 0px 0px 205px;
+	}
+		.banner .content-banner > img{
+			float: left;
+			width: 278px;
+			height: 334px;
+		}
+		.banner .content-banner #shopnow{
+			margin-left: 378px;
+		}
+			.banner .content-banner #shopnow h2{
+				color: #fff;
+				font-size: 61px;
+				margin-top: 15px;
+			}
+			.banner .content-banner #shopnow p{
+				color: #f2fbfa;
+				font-family: 'Open Sans', sans-serif;
+				font-size: 17px;
+				margin: 20px 0px;
+				line-height: 22px;
+				text-align: justify;
+			}
+			.banner .content-banner #shopnow > a{
+				height: 40px;
+			    width: 133px;
+			    color: #fff;
+			    border: 3px solid #fff;
+			    background-color: initial;
+			    text-transform: uppercase;
+			    font-size: 27px;
+			    border-radius: 7px;
+			    line-height: 43px;
+			    display: block;
+			    text-align: center;
+			}
+			.banner .content-banner #shopnow > a:hover{
+				background-color: #e74c3c;
+				-webkit-transition: 0.3s ease-in-out;
+				-moz-transition: 0.3s ease-in-out;
+				-ms-transition: 0.3s ease-in-out;
+			}
+/*==========================CATERLOGY=======================*/
+.catogories-list{
+	width: 985px;
+	height: 190px;
+	margin:0px auto;
+}
+	.catogories-list li{
+		float: left;
+		width: 320px;
+		border-right: 1px solid #e7e7e7;
+		height: 190px;
+		position: relative;
+	}
+		.catogories-list li img{
+			float: left;
+			margin-left: 15px;
+			display: block;
+			margin-top: 25px;
+		}
+		.catogories-list li h3{
+			color: #afafaf;
+			text-transform: uppercase;
+			font-size: 27px;
+			position: absolute;
+			top: 53px;
+			right: 25px;
+			width: 80px;
+		}
+		.catogories-list li a.link-shop{
+			display: block;
+			width: 60px;
+			height: 32px;
+			background-color: #3cc395;
+			color: #fff;
+			text-transform: uppercase;
+			font-size: 19px;
+			position: absolute;
+			text-align: center;
+			line-height: 33px;
+			border-radius: 3px; 
+			top: 120px;
+			right: 45px;
+		}
+	.catogories-list li:last-child{
+		border-right: none;
+	}
+		.catogories-list li:last-child img{
+			position: absolute;
+			left: 45px;
+		}
+/*=======================PRODUCT=====================*/
+#product-title{
+	background-color: #40c5ba;
+	height: 68px;
+}
+	#product-title h3{
+		margin-left: 250px;
+		line-height: 68px;
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 31px;
+	}
+.products{
+	margin: 48px 0px 48px 250px;
+	text-align: center;
+}
+	.products .product-cell{
+		float: left;
+		width: 250px;
+		height: 250px;
+		margin: 0px 50px 46px 0px;
+		border: 1px solid #e4e4e4;
+		text-align: center;
+		border-bottom: 3px solid #3cc395;
+		padding-top: 30px;
+	}
+		.products .product-cell span.price{
+			margin-right: 5px;
+			text-transform: uppercase;
+			font-size: 27px;
+			color: #afafaf;
+		}
+		.products .product-cell h4{
+			margin: 13px 0px;
+			text-transform: uppercase;
+			font-size: 27px;
+			color: #afafaf;
+		}
+		.products .product-cell a.link-buynow{
+			color: #fff;
+			background-color: #3cc395;
+			display: inline-block;
+			width: 74px;
+			height: 34px;
+			text-transform: uppercase;
+			font-size: 20.19px;
+			border-radius: 3px;
+			line-height: 36px;
+		}		
+/*======================FOOTER=====================*/
+.nav-footer{
+	height: 300px;
+	background-color: #3cc3b5;
+	padding: 45px 0px 45px 250px;
+}
+	.nav-footer ul{
+		float: left;
+		width: 230px;
+	}
+		.nav-footer ul li:first-child{
+			margin-bottom: 20px;
+		}
+		.nav-footer ul li:first-child a{
+			font-family: 'Bebas Neue', sans-serif;
+			font-size: 27px;
+			text-transform: uppercase;
+		}
+			.nav-footer ul li a{
+				color: #fff;
+				font-size: 15px;
+				font-family: 'Open Sans', sans-serif;
+				text-transform: capitalize;
+				line-height: 30px;
+			}
+			
+.copy-right{
+	background-color: #2da89b;
+	height: 46px;
+}
+	.copy-right p{
+		line-height: 46px;
+		color: #fff;
+		font-size: 15px;
+		font-family: 'Myriadpro Light', sans-serif;
+		text-align: center;
+	}
